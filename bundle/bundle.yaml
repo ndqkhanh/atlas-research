@@ -1,0 +1,26 @@
+apiVersion: lyra.dev/v3
+kind: SourceBundle
+name: atlas-research
+version: 0.1.0
+description: Long-horizon research agent with citation-verified synthesis and 3-spoke parallel investigation.
+dual_use: false
+smoke_eval_threshold: 0.95
+persona: persona.md
+skills: skills/
+tools:
+  - kind: native
+    name: atlas_query_planner
+  - kind: native
+    name: atlas_citation_verifier
+  - kind: mcp
+    name: atlas_search
+    server: stdio:./tools/mcp_server.py
+memory:
+  seed: memory/seed.md
+evals:
+  golden: evals/golden.jsonl
+  rubric: evals/rubric.md
+verifier:
+  domain: research
+  command: python verifier/checker.py
+  budget_seconds: 600

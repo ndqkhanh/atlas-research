@@ -1,0 +1,15 @@
+{"id": "atlas-001", "question": "What is the verifier-density argument from Karpathy 2026?", "expected_sources_min": 2, "expected_pass": true}
+{"id": "atlas-002", "question": "Compare RLHF and DPO for instruction tuning.", "expected_sources_min": 4, "expected_pass": true}
+{"id": "atlas-003", "question": "Latest Anthropic Agent Teams architecture details.", "expected_sources_min": 1, "expected_pass": true}
+{"id": "atlas-004", "question": "What does pairwise decorrelation mean for LLM judge pools?", "expected_sources_min": 2, "expected_pass": true}
+{"id": "atlas-005", "question": "Which scaling law dominates in 2026 — pretraining or test-time compute?", "expected_sources_min": 4, "expected_pass": true}
+{"id": "atlas-006", "question": "Summarize the Software 3.0 paradigm.", "expected_sources_min": 2, "expected_pass": true}
+{"id": "atlas-007", "question": "How does Polaris's daemon loop coordinate research lifecycle stages?", "expected_sources_min": 1, "expected_pass": true}
+{"id": "atlas-008", "question": "What are the 12 HIR primitives in Gnomon?", "expected_sources_min": 1, "expected_pass": true}
+{"id": "atlas-009", "question": "Compare context compaction strategies across Lyra and Claude Code.", "expected_sources_min": 3, "expected_pass": true}
+{"id": "atlas-010", "question": "Survey memory tiers in 2026 agent stacks.", "expected_sources_min": 5, "expected_pass": true}
+{"id": "atlas-011", "question": "What is the 7x token cost ceiling for Anthropic Agent Teams in plan mode?", "expected_sources_min": 1, "expected_pass": true}
+{"id": "atlas-012", "question": "Recent benchmarks on multi-hop reasoning.", "expected_sources_min": 4, "expected_pass": true}
+{"id": "atlas-013", "question": "Explain reasoning-bank distillation.", "expected_sources_min": 2, "expected_pass": true}
+{"id": "atlas-014", "question": "What are the bright-line gates in Polaris?", "expected_sources_min": 1, "expected_pass": true}
+{"id": "atlas-015", "question": "Compare Lyra v3.11 cross-harness export targets.", "expected_sources_min": 1, "expected_pass": true}
